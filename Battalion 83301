@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battalion 83301</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="path/to/your/image.jpg" alt="Battalion 83301" id="header-image">
+    </header>
+    <main>
+        <section id="about">
+            <h1>About Battalion 83301</h1>
+            <p>Insert your text here to describe what Battalion 83301 is about and its purpose in tracking names completed in the temple.</p>
+        </section>
+        <section id="video">
+            <h2>Watch Our Video</h2>
+            <video width="600" controls>
+                <source src="path/to/your/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section id="counter">
+            <h2>Name Counter</h2>
+            <p>Number of names completed: <span id="name-counter">0</span></p>
+            <button onclick="incrementCounter()">Add Name</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
